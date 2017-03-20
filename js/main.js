@@ -17,11 +17,33 @@
  * van Media Development producten (apps, sites, etc.)
  * Bijvoorbeeld een string variabele met de naam 'teacherName' en als waarde 'Berend'
  */
+    var name = "sjaak";
+    var lastName = "nijland";
+    var City = "monnickendam";
+    var food = "chicken";
+    var partnerInCrime = "reus";
 
+    var age = 18;
+    var money = 18000;
+    var earns = 18;
+    var GB = 184;
+    var websites = 128;
+
+    var internet = true;
+    var connection = true;
+    var homework = false;
+    var yes = true;
+    var willem = true;
+    
 /**
  * Opdracht 2: Arrays
  * Bedenk 3 arrays en vul ze met primitives
- * console.log de lengte van de arrays
+ **/
+    var games = ['killzone','last of us', 'god of war','little big planet'];
+    var nummers = [1,2,3,4,5,6,7,8,9];
+    var djs = ['coone','hard driver','ran-d','atmozfears'];
+    console.log(50);
+/** console.log de lengte van de arrays
  *
  * Bijvoorbeeld een Array met de naam 'students' en als waarde ['Berend', "Erwin']
  */
@@ -31,21 +53,25 @@
  * Maak een lege array aan
  * push er een string in
  */
-
+    var array =[];
+    array.push('kip');
+    console.log(array);
 /**
  * Opdracht 4: Array splice
  * Maak een array aan en vul hem met namen
  * Gooi de naam op de 1e plek weg
  * Gooi de naam op de 3e plek weg
  */
-
+    var namen = ['lucas','willem','tom','sjaak'];
+    namen.splice(0,2);
+    console.log(namen);
 /**
  * Opdracht 5: Objects
  * Maak van 10 objecten uit je dagelijkse leven een object
  *
  * Bijvoorbeeld een object met de gegevens van je mobiel zoals welk merk, type en hoe oud hij is
  */
-
+ var car = {type:'fiat', country:'nederland', style:'street',radio: 'FM/AM',topspeed:'210km' ,fuel:'diesel',price:'20k',status:'new',wheel:'4',onsale:'2017'};
 /**
  * Opdracht 6: Functions
  * Bedenk 4 functies die handig zouden kunnen zijn
