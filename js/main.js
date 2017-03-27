@@ -76,6 +76,15 @@
  * en hoe oud hij is
  */
  var car = {type:'fiat', country:'nederland', style:'street',radio: 'FM/AM',topspeed:'210km' ,fuel:'diesel',price:'20k',status:'new',wheel:'4',onsale:'2017'};
+ var shirt = {type: 'long', size:'s', color:'grey'};
+ var eten = {type 'kip', kilo:'gram'};
+ var draft ={type:'fifa', team:'198'};
+ var laptop= {type:'dell', GB:'170'};
+ var willem = {leeftijd:'18',geslacht:'man'};
+ var tom = {leeftijd:'17',geslacht:'man'};
+ var lucas = {leeftijd:'17',geslacht:'man'};
+ var sjaak = {leeftijd:'18',geslacht:'man'};
+ var bas = {leeftijd:'28',geslacht:'man'};
 /**
  * Opdracht 6: Functions
  * Bedenk 4 functies die handig zouden kunnen zijn
