@@ -77,7 +77,7 @@
  */
  var car = {type:'fiat', country:'nederland', style:'street',radio: 'FM/AM',topspeed:'210km' ,fuel:'diesel',price:'20k',status:'new',wheel:'4',onsale:'2017'};
  var shirt = {type: 'long', size:'s', color:'grey'};
- var eten = {type 'kip', kilo:'gram'};
+ var eten = {type: 'kip', kilo:'gram'};
  var draft ={type:'fifa', team:'198'};
  var laptop= {type:'dell', GB:'170'};
  var willem = {leeftijd:'18',geslacht:'man'};
@@ -191,6 +191,8 @@ String.prototype.replaceAll = function(search, replacement) {
  * splice().
  * console.log() de naam die deze functie returned
  */
+    var naam = ['Sjaak','Willem','Tom','Tristan'];
+    console.log(naam.random());
 
 /**
  * Opdracht 17: Custom prototype method gebruiken
@@ -199,7 +201,8 @@ String.prototype.replaceAll = function(search, replacement) {
  * op alle plekken te vervangen voor een ander woord
  * console.log() deze gewijzigde tekst
  */
-
+var willem = 'Willem is geweldig knap doordat hij zo mooien kaak lijn heeft!';
+console.log(willem.replaceAll('i','a'));
 /**
  * Opdracht 18: Prototype based language
  * Geef antwoord op onderstaande vraag
