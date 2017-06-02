@@ -1,3 +1,4 @@
+import './les_6';
 /**
  * Uitleg van deze opdrachten:
  * Kijk hoever je komt met deze opdrachten. Ik zal deze lijst in de toekomst
@@ -91,25 +92,68 @@
  * Bijvoorbeeld een functie met de naam 'multiply'. Deze functie verwacht 2
  * parameters value & multiplier console.log( value * multiplier)
  */
+function multiply(value,multiplier) {
+    value = 10;
+    multiplier = 10;
+    console.log(value * multiplier);
 
+}
+multiply();
+function autos(wielen,frame) {
+    wielen = 4;
+    frame = 1;
+    console.log(wielen + frame);
+
+}
+autos();
+
+function toeren(snelheid,km) {
+    snelheid = 20;
+    km= 5;
+    console.log(snelheid / km);
+}
+toeren();
+function min(1,2) {
+    1 = 20;
+    2= 10;
+    console.log(1 - 2);
+}
+min();
 /**
  * Opdracht 7: Function & objects
  * Maak een functie die een firstName en lastName verwacht als parameter
  * vervolgens returned de functie een object met daarin de firstname en
  * lastname opgeslagen roep deze functie aan en console.log() de waarde
  */
+function naam(firstName, lastName) {
+   return firstName + lastName;
 
+
+}
+console.log(naam('sjaak ','nijland'));
 /**
  * Opdracht 8: Functions, objects
  * Maak een object genaamd 'student'
  * Maak in dit object bij het aanmaken een functie aan met de naam 'showName'
  */
-
+var student = {
+    firstName: "John",
+    lastName : "Doe",
+    id       : 5566,
+    showName: function() {
+        return this.firstName + " " + this.lastName;
+    }
+};
 /**
  * Opdracht 9: Arrays & for loops
  * Maak een array genaamd 'students' met daarin 10 namen van je medeleerlingen
  * Schrijf een for loop om alle namen in de Array te laten zien (console.log())
  */
+var students = ['sjaak','willem','tom','lucas','ernst','bobby','enderest','pepi','coki','kees'];
+var i;
+for(i=0; i < students.length;i++ ){
+    console.log(students);
+}
 
 /**
  * Opdracht 10: Strings samenvoegen
@@ -118,6 +162,11 @@
  * Maak een variabele fullName, en zorg ervoor dat de variabelen 'firstName' en
  * 'lastName' hier samen in worden opgeslagen
  */
+var voornaam = 'sjaak';
+var achternaam = 'nijland';
+var fullname = voornaam + achternaam;
+
+console.log(fullname);
 
 /**
  * Opdracht 11: Random cijfers

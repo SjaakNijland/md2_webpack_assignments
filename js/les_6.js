@@ -1,5 +1,6 @@
 
-
+import{existy} from './utils/conditions.utils';
+import{getRandom} from './utils/random';
 /**
  * Opdracht 1: imports
  * Importeer conditions.utils.js
@@ -7,7 +8,9 @@
  * Maak een object aan en check via existy() of hij bestaat
  * Maak een variabele aan maar geef hem nog geen vulling. Console.log() wat existy() teruggeeft
  */
+    var niks='';
 
+    console.log(existy(niks));
 /**
  * Opdracht 2: exports
  *
@@ -17,6 +20,8 @@
  * met random getallen. getRandom(from, to)
  * importeer je bestand hier en voer je functie uit
  */
+    var getal='';
+    console.log(getRandom(getal));
 
 /**
  * Opdracht 3: Analyseer de Student Class
@@ -24,6 +29,8 @@
  * Importeer de Class en maak 3 studenten aan
  * Beantwoord de volgende vragen
  */
+import Student from './entities/student';
+
 console.log('Wat is de prototype chain van een student?',
             'jouw antwoord');
 
